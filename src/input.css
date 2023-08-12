@@ -6,3 +6,9 @@
     font-family: "Inter";
     src: url('fonts/Inter/static/Inter-Regular.ttf');
 }
+.li_:hover .dot{
+    background-color: #F54748;
+}
+.li_:hover a{
+    color: #F54748;
+}

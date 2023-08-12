@@ -6,6 +6,11 @@ module.exports = {
       backgroundImage: {
         'mainbg': "linear-gradient(180deg, #FEF3F3 0%, #FFF 100%)",
       },
+      colors:{
+        primaryColorLight: "#F54748",
+        primaryColorSuperLight: "#FDECEC",
+        primaryColor: "#F54748",
+      },
       fontFamily: {
         'Inter': ['Inter`', 'sans-serif'],
       }
