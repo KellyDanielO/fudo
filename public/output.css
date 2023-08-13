@@ -612,9 +612,17 @@ video {
   z-index: 3;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.box-border {
+  box-sizing: border-box;
 }
 
 .flex {
@@ -930,6 +938,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -973,6 +985,11 @@ video {
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pt-5 {
