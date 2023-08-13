@@ -10,6 +10,7 @@ module.exports = {
         primaryColorLight: "#F54748",
         primaryColorSuperLight: "#FDECEC",
         primaryColor: "#F54748",
+        mainColor: "#FEF3F3",
       },
       fontFamily: {
         'Inter': ['Inter`', 'sans-serif'],
