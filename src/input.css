@@ -3,12 +3,19 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Inter";
-    src: url('fonts/Inter/static/Inter-Regular.ttf');
+  font-family: "Inter";
+  src: url("fonts/Inter/static/Inter-Regular.ttf");
 }
-.li_:hover .dot{
-    background-color: #F54748;
+.li_:hover .dot {
+  background-color: #f54748;
 }
-.li_:hover a{
-    color: #F54748;
+.li_:hover a {
+  color: #f54748;
+}
+.slide_menu {
+  transform: translate(200vw, 0);
+  transition: all 0.5s ease-in-out;
+}
+.slide_menu.active {
+  transform: translate(0, 0);
 }
