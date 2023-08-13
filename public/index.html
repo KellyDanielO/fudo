@@ -68,6 +68,7 @@
         <iconify-icon
           icon="ic:sharp-menu"
           class="text-3xl cursor-pointer lg:hidden"
+          id="slide_menu_btn"
         ></iconify-icon>
       </nav>
       <!-- Mobile Nav List bar -->
@@ -101,9 +102,23 @@
             </li>
           </ul>
           <!-- Close button -->
-          <iconify-icon icon="iconamoon:close" class="text-4xl cursor-pointer absolute top-10 right-10 " id="slide_menu_btn"></iconify-icon>
+          <iconify-icon
+            icon="iconamoon:close"
+            class="text-4xl cursor-pointer absolute top-10 right-10"
+            id="side_close_btn"
+          ></iconify-icon>
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
           <!-- Buttons Mobile -->
-          <div class="flex gap-8 items-center justify-center absolute left-0 right-0 bottom-0 py-5 ">
+          <div
+            class="flex gap-8 items-center justify-center absolute left-0 right-0 bottom-0 py-5"
+          >
             <iconify-icon
               icon="iconamoon:search"
               class="text-black text-3xl"
@@ -153,7 +168,7 @@
             >
               <!-- Get Started Button -->
               <div
-                class="flex items-center justify-center bg-primaryColor text-white py-3 px-10 rounded-full cursor-pointer text-2xl font-[500] lg:py-1"
+                class="flex items-center justify-center bg-primaryColor text-white py-5 px-10 rounded-full cursor-pointer text-2xl font-[500] lg:py-1"
               >
                 Get Started
               </div>
@@ -212,7 +227,7 @@
       </section>
     </main>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <script defer src="/_vercel/insights/script.js"></script>
-    <script src="main.js" defer></script>
+    <!-- <script defer src="/_vercel/insights/script.js"></script> -->
+    <script src="main.js"></script>
   </body>
 </html>
