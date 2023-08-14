@@ -10,3 +10,13 @@ side_close_btn.addEventListener("click", () => {
     slide_menu.classList.remove("active");
     // console.log('yes');
 });
+
+const next = document.querySelector('.next');
+var pizza_cont = document.querySelector('.pizza_cont');
+next.addEventListener('click', () => {
+    pizza_cont.scrollTo(window.innerWidth / (1 / 3), 0);
+});
+const prev = document.querySelector('.prev');
+prev.addEventListener('click', () => {
+    pizza_cont.scrollTo(-window.innerWidth / (1 / 3), 0);
+});
