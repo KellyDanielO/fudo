@@ -13,7 +13,7 @@ module.exports = {
         mainColor: "#FEF3F3",
       },
       fontFamily: {
-        'Inter': ['Inter`', 'sans-serif'],
+        'Inter': ['Inter', 'sans-serif'],
       }
     },
   },
